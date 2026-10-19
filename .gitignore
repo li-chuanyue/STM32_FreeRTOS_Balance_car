@@ -1,0 +1,5 @@
+User/Objects/
+User/Listings/
+User/*.log
+User/*.uvguix.*
+User/*.uvoptx
