@@ -190,7 +190,7 @@
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>0</useUlib>
+            <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include;C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc;..\Config;..\User;..\FreeRTOS;..\FreeRTOS\portable\GCC\ARM_CM3;..\FreeRTOS\portable\MemMang;..\FreeRTOS\include</IncludePath>
+              <IncludePath>C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include;C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc;..\Standard_Peripheral_Library;..\Config;..\User;..\FreeRTOS;..\FreeRTOS\portable\GCC\ARM_CM3;..\FreeRTOS\portable\MemMang;..\FreeRTOS\include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -437,7 +437,22 @@
             <File>
               <FileName>stm32f10x_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_i2c.c</FilePath>
+              <FilePath>..\Standard_Peripheral_Library\stm32f10x_i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Standard_Peripheral_Library\stm32f10x_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Standard_Peripheral_Library\stm32f10x_usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_usart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Standard_Peripheral_Library\stm32f10x_usart.h</FilePath>
             </File>
           </Files>
         </Group>
