@@ -1,0 +1,158 @@
+Dependencies for Project 'F103_FreeRTOS_Template', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x6AD5B5CB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MMD)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6AD57FF0)
+I (..\User\FreeRTOSConfig.h)(0x6AD5B201)
+I (..\FreeRTOS\include\projdefs.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\portable.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6AD57FF0)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x6AD57FEA)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\task.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\list.h)(0x6AD57FF0)
+F (..\Config\stm32f10x_conf.h)(0x6AAB9605)()
+F (..\Startup\startup_stm32f10x_hd.s)(0x69AE746D)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"STM32F10X_HD SETA 1"-o ./objects/startup_stm32f10x_hd.o)
+F (..\CMSIS\system_stm32f10x.c)(0x6AAB9CEA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/system_stm32f10x.o -MMD)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+F (..\Standard_Peripheral_Library\stm32f10x_gpio.c)(0x69AE746D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/stm32f10x_gpio.o -MMD)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x69AE746D)
+F (..\Standard_Peripheral_Library\stm32f10x_rcc.c)(0x69AE746D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/stm32f10x_rcc.o -MMD)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+F (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_tim.c)(0x69AE746D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/stm32f10x_tim.o -MMD)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x69AE746D)
+F (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_i2c.c)(0x69AE746D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/stm32f10x_i2c.o -MMD)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x69AE746D)
+F (.\Motor_Driver.c)(0x6AAEB07D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/motor_driver.o -MMD)
+I (Motor_Driver.h)(0x6AAEB07D)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x69AE746D)
+F (.\oled.c)(0x6AB8BFFD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/oled.o -MMD)
+I (oled.h)(0x6AACDC4C)
+I (oled_font.h)(0x6AACDC4C)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x69AE746D)
+F (.\ICM20948.c)(0x6AAEB69E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/icm20948.o -MMD)
+I (ICM20948.h)(0x6AAE61E7)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x69AE746D)
+F (.\Encoder.c)(0x6AAE946D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/encoder.o -MMD)
+I (Encoder.h)(0x6AAE8975)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x69AE746D)
+F (..\FreeRTOS\tasks.c)(0x6AD57FE8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/tasks.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6AD57FF0)
+I (..\User\FreeRTOSConfig.h)(0x6AD5B201)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (..\FreeRTOS\include\projdefs.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\portable.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6AD57FF0)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x6AD57FEA)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\task.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\list.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\timers.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\stack_macros.h)(0x6AD57FF0)
+F (..\FreeRTOS\queue.c)(0x6AD57FE8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/queue.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6AD57FF0)
+I (..\User\FreeRTOSConfig.h)(0x6AD5B201)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (..\FreeRTOS\include\projdefs.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\portable.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6AD57FF0)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x6AD57FEA)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\task.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\list.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\queue.h)(0x6AD57FF0)
+F (..\FreeRTOS\list.c)(0x6AD57FE8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/list.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6AD57FF0)
+I (..\User\FreeRTOSConfig.h)(0x6AD5B201)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (..\FreeRTOS\include\projdefs.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\portable.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6AD57FF0)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x6AD57FEA)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\list.h)(0x6AD57FF0)
+F (..\FreeRTOS\portable\GCC\ARM_CM3\port.c)(0x6AD57FEA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/port.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6AD57FF0)
+I (..\User\FreeRTOSConfig.h)(0x6AD5B201)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (..\FreeRTOS\include\projdefs.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\portable.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6AD57FF0)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x6AD57FEA)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\task.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\list.h)(0x6AD57FF0)
+F (..\FreeRTOS\portable\MemMang\heap_4.c)(0x6AD57FEC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/20591/software/Keil_mdk/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include -I C:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc -I ../Config -I ../User -I ../FreeRTOS -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../FreeRTOS/portable/MemMang -I ../FreeRTOS/include-IC:/Users/20591/software/Keil_mdk/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ./objects/heap_4.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6AD57FF0)
+I (..\User\FreeRTOSConfig.h)(0x6AD5B201)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x69AE746D)
+I (C:\Users\20591\software\Keil_mdk\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664BD888)
+I (C:\Users\20591\software\Keil_mdk\packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x69AE746D)
+I (..\Config\stm32f10x_conf.h)(0x6AAB9605)
+I (..\FreeRTOS\include\projdefs.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\portable.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6AD57FF0)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x6AD57FEA)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\task.h)(0x6AD57FF0)
+I (..\FreeRTOS\include\list.h)(0x6AD57FF0)
+F (..\User\FreeRTOSConfig.h)(0x6AD5B201)()
